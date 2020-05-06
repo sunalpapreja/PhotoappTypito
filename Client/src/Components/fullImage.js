@@ -32,7 +32,7 @@ const FullImage = (props) => {
     }
     
     return (
-        <div style={{'text-align': 'center', backgroundColor:'#97908E'}}>
+        <div style={{'text-align': 'center', backgroundColor:'#97908E', height:'100%'}}>
         <div style={{display:'inline-block'}}>
         <div className="container d-flex alert-dismissible mt-4 mb-4">
         <div className="jumbotron mr-4 btn-round" style={{backgroundColor:'#0000',
