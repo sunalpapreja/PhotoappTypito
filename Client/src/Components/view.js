@@ -75,7 +75,7 @@ const View = (props) => {
             })
             images = images.map(filename=>{
 
-                return 'http://192.168.1.7:3000/' + filename
+                return 'https://typitophotoapp.herokuapp.com/' + filename
             });
 
             fileDates.forEach((date, index)=>{
@@ -273,11 +273,11 @@ const mapDispatchToProps = (dispatch)=>{
             var images = [];
             allImages.forEach((item, index)=>{
                 item.img.forEach((item2, index)=>{
-                    item2 = item2.substr(0,24) + "720/" + item2.substr(24,);
+                    item2 = item2.substr(0,37) + "720/" + item2.substr(37,);
                     images.push(item2);
                 });
             })
-            selectedImage = selectedImage.substr(0,24) + "720/" + selectedImage.substr(24,);
+            selectedImage = selectedImage.substr(0,37) + "720/" + selectedImage.substr(37,);
             dispatch({
                 type:'Set_Image',
                 img:selectedImage,
