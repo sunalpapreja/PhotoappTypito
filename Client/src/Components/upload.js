@@ -38,7 +38,6 @@ const Upload = () => {
                 
             }
         }).then((result)=>{
-            console.log(result.data);
             setmessage("Files Uploaded");
             setTimeout(()=>{
                 setmessage("");
