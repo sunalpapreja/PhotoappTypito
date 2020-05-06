@@ -77,6 +77,7 @@ const View = (props) => {
 
                 return 'https://typitophotoapp.herokuapp.com/' + filename
             });
+            console.log(images);
 
             fileDates.forEach((date, index)=>{
                 imgdate.push({
