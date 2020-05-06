@@ -46,7 +46,7 @@ var photos = multer({
 })
 
 router.post('/upload',photos.array('image'),(req, res, next)=>{
-    console.log("requested")
+    
     const files = req.files;
     files.forEach((file, index)=>{
         var time = Date.now();
@@ -99,8 +99,7 @@ router.get('/view',(req, res, next)=>{
         {
             filenames.sort().reverse();
             filenames = filenames.slice(startIndex,lastIndex);
-        }
-        console.log(filenames);    
+        }    
         res.send(filenames);
     });
 });
