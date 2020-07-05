@@ -7,7 +7,7 @@ It can be used as an online photo sharing app. Users just have to upload them an
 It has a good UI to view the uploaded images and even a full image preview is available. All the images are gouped by their date of uploading so that they are easily distinguishable, accessible and searchable. 
 
 
-# Considerations - 
+# Considerations
 
   - The home page should show both the options to upload that is select and browse and drag and drop seperately. So that user can directly drag and drop from the already open window even without opening the window from browser.
   - To view uploaded images, server should serve the uploaded images as a static files instead of sending the full image files as a response.
