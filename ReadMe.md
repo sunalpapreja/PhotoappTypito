@@ -4,7 +4,7 @@
 
 Photo App is an online photo gallery in which user can upload images to an online server, either by select and browse or by drag and drop.
 It can be used as an online photo sharing app. Users just have to upload them and every user's data will be availabe in a common link (URL).
-It has a good UI to view the uploaded images and even a full image preview is available. All the images are gouped by their date of uploading so that they are easily distinguishable, accessible and searchable. 
+It has a good UI to view the uploaded images and even a full image preview is available. All the images are grouped by their date of uploading so that they are easily distinguishable, accessible and searchable. 
 
 
 # Considerations
